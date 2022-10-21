@@ -1,10 +1,10 @@
-import java.util.*;
 class BloodData{
-	public static String bloodType;
-	public static String rhFactor;
+	 static String bloodType;
+ 	 static String rhFactor;
+	
 	public BloodData(){
 		bloodType = "O";
-		rhFactor = "+";
+		rhFactor  = "+";
 	}
 	public BloodData(String bt, String rh){
 		bloodType = bt;
